@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/web/formsCadastrarSites.xhtml</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/web/formsCadastrarTeatros.xhtml</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/src/conf/persistence.xml</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/src/java/pojo/Promocao.java</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/src/java/pojo/Site.java</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/src/java/dao/SiteDao.java</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/web/resources/css/estilo.css</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/src/java/dao/TeatroDao.java</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/src/java/pojo/Teatro.java</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/web/index.xhtml</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/web/formsLogin.xhtml</file>
+            <file>file:/C:/Arquivos/Programas/Java/SistemaPromocoesTeatrosJSF/src/java/dao/PromocaoDao.java</file>
+        </group>
+    </open-files>
+</project-private>

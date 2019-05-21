@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+            <title>Sistema de Gerenciamento</title>
+        <h:outputStylesheet library="css" name="estilo.css"/>
+    </h:head>
+    <h:body>
+    <div class="div-header">
+        <h1>Gerenciamento de Sites e Teatros</h1>
+        <nav>
+          <h:form>  
+          <ul>
+            <li> <a href="">Promoções</a></li>
+            <li> <h:commandLink action="formsCadastrarSites">Cadastrar Site</h:commandLink></li>
+            <li> <h:commandLink action="formsCadastrarTeatros">Cadastrar Teatro</h:commandLink></li>
+            <li> <a href="">Login</a></li>
+          </ul>
+          </h:form> 
+        </nav>
+    </div>
+        
+     <div class="layout-body">
+
+     <div class="container-esquerdo-principal">
+        <h2><a>Promoções</a></h2>
+        
+        Filtrar por teatro
+       
+        <div class="table">
+            <div class="thead">
+              <li>Peça</li>
+              <li>Link</li>
+              <li>Preço</li>
+              <li>Data</li>
+              <li>Horário</li>
+            </div>
+            
+            <div class="tbody">
+                
+            </div>
+        </div>
+           
+        
+      </div>
+
+        <div class="container-direito-principal">
+          <h2><a>Teatros</a></h2>
+          
+          Filtrar por cidade  
+          
+          <div class="table-teatro">
+            <div class="thead-teatro">
+              <li>Nome</li>
+              <li>Cidade</li>
+              <li>Email</li>
+              <li id="headcnpj">CNPJ</li>
+
+            </div>
+            
+            <div class="tbody-teatro">
+                
+            </div>
+        </div>
+
+        </div>
+    </div>
+        <h:form>
+            <h:commandLink action="novoPalpite">Fazer um palpite</h:commandLink><br/>
+            <h:commandLink action="#{listaPalpites.verTodosPalpites()}">Ver todos os palpites</h:commandLink><br/>
+            <h:commandLink action="#{listaPalpites.verTodosPalpites('Palmeiras')}">Ver todos os palpites envolvendo o Palmeiras</h:commandLink><br/>
+        </h:form>
+    </h:body>
+</html>
